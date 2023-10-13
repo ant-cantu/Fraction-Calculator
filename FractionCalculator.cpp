@@ -1,31 +1,31 @@
 //* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
-//* Program name    : Fraction Calculator (L3-2                         * 
+//* Program name    : Fraction Calculator (L3-2)                        * 
 //*                                                                     * 
 //* Written by      : Anthony Cantu                                     * 
 //*                                                                     * 
 //* Purpose         : This application will allow the user to select	*
-//*					  an operation to either add, subtract, multiply,	*
-//*					  or divide two fractions. The fractions are not	*
-//*					  displayed at their lowest terms.                  * 
+//*		      an operation to either add, subtract, multiply,	*
+//*		      or divide two fractions. The fractions are not	*
+//*		      displayed at their lowest terms.                  * 
 //*                                                                     * 
 //* Inputs          : User makes a selection from the menu and then     * 
-//*					  enters two fractions.								* 
+//*		      enters two fractions.				* 
 //*                                                                     * 
 //* Outputs         : Display of the menus and the calculated answer    * 
 //*                                                                     * 
-//* Calls           : menu();											*
-//*					  validateSelection(char selection);                * 
-//*					  initializeFraction(int& n1, int& d1, int& n2,		*
-//*							int& d2);									*
-//*					  addFraction(int n1, int d1, int n2, int d2,		*
-//*							int& rN, int& rD);							*
-//*					  subtractFraction(int n1, int d1, int n2, int d2,	*
-//*							int& rN, int& rD);							*
-//*					  divideFraction(int n1, int d1, int n2, int d2,	*
-//*							int& rN, int& rD);							*
-//*					  multiplyFraction(int n1, int d1, int n2, int d2,	*
-//*							int& rN, int& rD);							*
-//*					  validateFraction(bool num);						*
+//* Calls           : menu();						*
+//*		      validateSelection(char selection);                * 
+//*		      initializeFraction(int& n1, int& d1, int& n2,	*
+//*				int& d2);				*
+//*		      addFraction(int n1, int d1, int n2, int d2,	*
+//*				int& rN, int& rD);			*
+//*		      subtractFraction(int n1, int d1, int n2, int d2,	*
+//*				int& rN, int& rD);			*
+//*		      divideFraction(int n1, int d1, int n2, int d2,	*
+//*				int& rN, int& rD);			*
+//*		      multiplyFraction(int n1, int d1, int n2, int d2,	*
+//*				int& rN, int& rD);			*
+//*		      validateFraction(bool num);			*
 //*                                                                     * 
 //* Structure       : BEGIN                                             * 
 //*                        Straight line code no sub-processes          * 
@@ -33,13 +33,13 @@
 //*                        End of Program                               * 
 //*                                                                     * 
 //*---------------------------------------------------------------------* 
-//* Collaboration   :													* 
+//* Collaboration   :							* 
 //*                                                                     * 
 //*---------------------------------------------------------------------* 
 //* Change Log:                                                         * 
 //*                         Revision                                    * 
 //*       Date    Changed  Rel Ver Mod Purpose                          * 
-//* 10/13/23      acantu 000.000.000 Initial release of program			* 
+//* 10/13/23      acantu 000.000.000 Initial release of program		* 
 //*                                                                     * 
 //* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 #include <iostream>
